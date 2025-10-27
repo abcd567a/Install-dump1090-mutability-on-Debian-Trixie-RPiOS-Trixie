@@ -1,4 +1,4 @@
-### Install dump1090-mutability on Debian13 Trixie and RPiOS Trixie
+### Install dump1090-mutability on Debian13 Trixie and Raspberry Pi OS Trixie
 **The dump1090+mutability is no more available in Debian 13 trixie repositories.**</br>
 
 **Workaround to install dump1090-mutability**</br>
