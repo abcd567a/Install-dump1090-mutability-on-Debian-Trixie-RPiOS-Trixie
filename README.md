@@ -33,6 +33,7 @@ wget  http://http.us.debian.org/debian/pool/main/d/dump1090-mutability/dump1090-
 sudo dpkg -i dump1090-mutability/dump1090-mutability_1.15~20180310.4a16df3+dfsg-8.1_arm64.deb  
 
 sudo apt --fix-broken install  
+
 sudo usermod -aG plugdev dump1090  
 
 sudo reboot
@@ -50,6 +51,7 @@ wget  http://http.us.debian.org/debian/pool/main/d/dump1090-mutability/dump1090-
 sudo dpkg -i dump1090-mutability_1.15~20180310.4a16df3+dfsg-8.1_amd64.deb  
 
 sudo apt --fix-broken install  
+
 sudo usermod -aG plugdev dump1090  
 
 sudo reboot
@@ -66,7 +68,9 @@ sudo apt install lighttpd
 wget  http://http.us.debian.org/debian/pool/main/d/dump1090-mutability/dump1090-mutability_1.15~20180310.4a16df3+dfsg-8.1_i386.deb  
 
 sudo dpkg -i dump1090-mutability_1.15~20180310.4a16df3+dfsg-8.1_i386.deb  
+
 sudo apt --fix-broken install  
+
 sudo usermod -aG plugdev dump1090  
 
 sudo reboot
