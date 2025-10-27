@@ -7,7 +7,7 @@ The dump1090-mutability packages are available from Debian Package Archive for "
 
 To download & install dump1090-mutability packages from Debian Package Archives for Bookworm, use following commands:
 
-**(1) RPi with 32-bit OS (armhf)**</br>
+### (1) RPi with 32-bit OS (armhf)
 ```
 sudo apt install lighttpd
 
@@ -20,11 +20,11 @@ sudo apt --fix-broken install
 sudo usermod -aG plugdev dump1090  
 
 sudo reboot
+
 ```
 </br>
 
-**(2) RPi with 64-bit OS (arm64 / aarch64)** </br>
-
+### (2) RPi with 64-bit OS (arm64 / aarch64) 
 ```
 sudo apt install lighttpd  
 
@@ -39,10 +39,8 @@ sudo usermod -aG plugdev dump1090
 sudo reboot
 
 ```
-</br>
 
-**(3) PC / Laptop (amd64)** </br>
-
+### (3) PC / Laptop (amd64) 
 ```
 sudo apt install lighttpd  
 
@@ -57,11 +55,8 @@ sudo usermod -aG plugdev dump1090
 sudo reboot
 
 ```
-</br>
 
-**(4) PC/Laptop (i386)**
-</br>
-
+### (4) PC/Laptop (i386)
 ```
 sudo apt install lighttpd  
 
@@ -76,3 +71,6 @@ sudo usermod -aG plugdev dump1090
 sudo reboot
 
 ```
+
+</br>
+
